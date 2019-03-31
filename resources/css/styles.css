@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-color: #e7e7e7;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.row-app{
+    width: 1124px;
+    margin: 0 auto;
+}
+
+nav img{
+    width: 250px;
+    height: auto;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #efefef;
+    z-index: 9999;
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/DUVWHITE.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60vh;
+    color: #efefef;
+}
+
+.app_title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+}
+
+.nav_logo img{
+    position: absolute;
+    
+    width: 110px;
+}
+
+.nav_div{
+    position: absolute;
+    bottom: 10px;
+    left: 220px;
+}
+
+.nav_div ul{
+    list-style: none;
+}
+
+.nav_div ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav_div ul a{
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    color: #efefef;
+}
+
+.nav_div ul a:hover{
+    border-bottom: 1px solid #3288bb;
+}
+
+
+header h1{
+    font-size: 400%;
+    font-weight: 300;
+    font-family: Lucida Handwriting, cursive;
+}
+
+
+.app_title h1 span{
+    color: #3288bb;
+}
+
+header p{
+    position: relative;
+    left: 60%;
+    font-size: 130%;
+    font-family: Calibri;
+    margin-top: -55px;
+}
+
+/* Tag Description */
+.tagdesc{
+    text-align: center;
+}
+
+.tagdesc blockquote{
+    position: relative;
+    font-style: italic;
+}
+
+.tagdesc blockquote:before{
+    content:'\201C';
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: 45px;
+}
+
+/* Categories */
+.categories{
+    text-align: center;
+}
+
+.categories h2,
+.tagdesc h2{
+    text-transform: uppercase;
+    font-size: 230%;
+    font-weight: 300;
+    color: #555;
+}
+
+.categories h2:after,
+.tagdesc h2:after{
+    display: block;
+    content: "";
+    width: 100px;
+    background-color: #3288bb;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.category{
+    text-align: center;
+    padding: 20px 10px;
+    /*border: 1px solid black;*/
+    background-color: rgba(17, 116, 174, 0.1);
+    border-radius: 4px;
+    box-shadow: 1px 1px #555;
+    transform: scale(1.01);
+    width: 30%;
+    transition: transform 0.2s;
+}
+
+.category:hover{
+    transform: scale(1);
+    
+}
+
+.category:first-child{
+    margin-right: 3%;
+}
+
+.category:last-of-type{
+    margin-left: 2%;
+}
+
+.category-img-container{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.category-img{
+    width: 300px;
+    height: 300px;
+}
+
+.category-text{
+    font-weight: lighter;
+    color: #555;
+}
+
+/* Footer */
+
+footer{
+    height: 44vh;
+    color: #efefef;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;.
+    padding: 20px 0;
+}
+
+
+
+footer p{
+}
+
+.footer-section{
+    padding: 10px 30px;
+}
+
+.footer-section h5{
+    font-size: 140%;
+    border-bottom: 1px solid rgba(239, 239, 239, 0.71);
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.footer-section ul{
+    text-align: left;
+    list-style: none;
+}   
+
+.footer-section ul li{
+    margin-bottom: 10px;
+    padding-left: 9%;
+}
+
+.social-div{
+    display: inline-block;
+}
+
+.fb,
+.tw,
+.insta{
+    margin: 0 10px;
+    color: #efefef;
+    transition: font-size 0.2s, color 0.2s;
+}
+
+.fb i,
+.tw i,
+.insta i{
+    font-size: 139.9%;
+}
+
+.fb:link,
+.fb:active,
+.tw:link,
+.tw:active,
+.insta:link,
+.insta:active{
+    color: #efefef;
+}
+
+.fb:hover,
+.tw:hover,
+.insta:hover{
+    color: #3288bb;
+    font-size: 140%;
+}
+
+
+/**/
