@@ -263,5 +263,10 @@ footer p{
     font-size: 140%;
 }
 
+.menu_icon,
+.menu_icon_close{
+    display: none;
+}
+
 
 /**/
