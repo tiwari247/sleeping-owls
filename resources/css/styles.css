@@ -10,14 +10,16 @@ html{
     letter-spacing: 1px;
     word-spacing: 2px;
     background-color: #e7e7e7;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 section{
-    padding: 80px 0;
+    padding: 70px 0;
 }
 
 .row-app{
-    width: 1124px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -39,6 +41,7 @@ header{
     background-attachment: fixed;
     background-size: cover;
     height: 60vh;
+    width: 100%;
     color: #efefef;
 }
 
@@ -46,6 +49,8 @@ header{
     position: absolute;
     top: 40%;
     left: 50%;
+    width: 100%;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 
@@ -100,7 +105,7 @@ header h1{
 
 header p{
     position: relative;
-    left: 60%;
+    left: 17%;
     font-size: 130%;
     font-family: Calibri;
     margin-top: -55px;
@@ -117,6 +122,10 @@ header p{
     color: #555;
 }
 
+.tagdesc blockquote span{
+    font-size: 400%;
+}
+/*
 .tagdesc blockquote:before{
     content:'\201C';
     font-size: 400%;
@@ -125,7 +134,7 @@ header p{
     top: -25px;
     left: 35px;
 }
-
+*/
 /* Categories */
 .categories{
     text-align: center;
@@ -148,7 +157,7 @@ header p{
     height: 2px;
     margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .category{
@@ -182,8 +191,8 @@ header p{
 }
 
 .category-img{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 
 .category-text{
@@ -194,7 +203,7 @@ header p{
 /* Footer */
 
 footer{
-    height: 28vh;
+    height: 180px;
     color: #efefef;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: left;.
@@ -226,7 +235,7 @@ footer p{
 .footer-section ul li{
     margin-bottom: 10px;
     padding-left: 0;
-    font-size: 80%;
+    font-size: 70%;
 }
 
 .social-div{
