@@ -382,3 +382,9 @@
         overflow-x: hidden;
     }
 }
+
+@media only screen and (max-width:320px) {
+    .overflow-wrapper{
+        overflow-x: hidden;
+    }
+}
