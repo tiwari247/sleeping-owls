@@ -71,23 +71,27 @@ nav{
     left: 220px;
 }
 
-.nav_div ul{
+.mob-nav{
+    display: none;
+}
+
+.main-nav{
     list-style: none;
 }
 
-.nav_div ul li{
+.main-nav li{
     display: inline-block;
     margin: 0 10px;
 }
 
-.nav_div ul a{
+.main-nav a{
     text-decoration: none;
     padding: 5px;
     text-transform: uppercase;
     color: #efefef;
 }
 
-.nav_div ul a:hover{
+.main-nav a:hover{
     border-bottom: 1px solid #3288bb;
 }
 

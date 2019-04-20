@@ -1,6 +1,6 @@
 $(function(){
     $(".--js-menu_icon").click(function(){
-        var nav = $(".--js-main-nav");
+        var nav = $(".--js-mob-nav");
         var icon = $(".--js-menu_icon i");
         if(icon.hasClass("ion-android-menu")){
             icon.addClass("ion-close");
