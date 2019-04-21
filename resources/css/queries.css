@@ -80,7 +80,7 @@
         height: auto;
     }
     footer{
-        height: 180px;
+        height: 65px;
         color: #efefef;
         background-color: rgba(0, 0, 0, 0.8);
         text-align: left;.
@@ -98,7 +98,17 @@
     }
     .footer-section ul li{
         font-size: 70%;
-    }/*
+    }
+    
+    .offices-left h3{
+        text-align: center;
+    }
+    
+    .contact .span-3-of-4,
+    .contact .span-1-of-4{
+        width: 100%;
+    }
+    /*
     .tagdesc blockquote:before{
         content:'\201C';
         font-size: 400%;
@@ -221,9 +231,12 @@
         padding-left: 0;
         font-size: 62%;
     }*/
+    .contact-form legend{
+        text-align: center;
+    }
     
     footer{
-        height: 500px;
+        height: 85px;
         color: #efefef;
         background-color: rgba(0, 0, 0, 0.8);
         text-align: center;.
@@ -247,7 +260,33 @@
         padding-left: 0;
         font-size: 82%;
     }
-    .span-1-of-4 {
+    
+    .offices-left h3{
+        text-align: center;
+    }
+    .office-section{
+        padding: 10px 0px;
+    }
+    .office-section h5{
+        font-size: 110%;
+        /*border-bottom: 1px solid rgba(239, 239, 239, 0.71);*/
+        padding-bottom: 7px;
+        margin-bottom: 0;
+        font-weight: 300;
+        text-align: center;
+    }
+    .office-section ul{
+        text-align: center;
+    }
+    .office-section ul li{
+        margin-bottom: 5px;
+        padding-left: 0;
+        font-size: 90%;
+    }
+    .contact .span-3-of-4,
+    .contact .span-1-of-4,
+    .contact .span-1-of-3,
+    footer .span-1-of-2{
         width: 100%;
     }
 }
@@ -295,7 +334,6 @@
     }
     .mob-nav{
         list-style: none;
-        position: relative;
         width: 100%;
         float: left;
     }
@@ -375,8 +413,11 @@
     .category:nth-child(4){
         margin-left: 10%;
     }
+    .contact-form legend{
+        text-align: center;
+    }
     footer{
-        height: 400px;
+        height: 70px;
         color: #efefef;
         background-color: rgba(0, 0, 0, 0.8);
         text-align: center;.
@@ -392,13 +433,27 @@
         margin-bottom: 0;
         font-weight: 300;
     }
-    .footer-section ul{
+    .offices-left h3{
         text-align: center;
     }
-    .footer-section ul li{
+    .office-section{
+        padding: 10px 0px;
+    }
+    .office-section h5{
+        font-size: 100%;
+        /*border-bottom: 1px solid rgba(239, 239, 239, 0.71);*/
+        padding-bottom: 7px;
+        margin-bottom: 0;
+        font-weight: 300;
+        text-align: center;
+    }
+    .office-section ul{
+        text-align: center;
+    }
+    .office-section ul li{
         margin-bottom: 5px;
         padding-left: 0;
-        font-size: 82%;
+        font-size: 90%;
     }
     .overflow-wrapper{
         overflow-x: hidden;
